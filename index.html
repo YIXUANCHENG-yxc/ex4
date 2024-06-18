@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Terrance Web Space</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* 使用无衬线字体 */
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            display: flex; /* 使用Flexbox布局 */
+            justify-content: space-between; /* 两端对齐 */
+            padding: 20px;
+        }
+        .column {
+            background-color: #666;
+            color: white;
+            flex: 1; /* 每列占等分宽度 */
+            margin: 0 10px;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>Terrance Web Space</header>
+    <div class="container">
+        <div class="column">
+            <h3>Helpful College Links</h3>
+            <ul>
+                <li>Magnolia University</li>
+                <li>DAL</li>
+            </ul>
+            <h3>Helpful HTML Links</h3>
+            <ul>
+                <li>HTML Language Commands</li>
+                <li>Images, Misc</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>FAMILY</h3>
+            <h3>TEACHING</h3>
+            <h3>RESEARCH</h3>
+            <h3>STUDENTS</h3>
+        </div>
+        <div class="column">
+            <h3>Previous Exercises</h3>
+            <ul>
+                <li>Exercise 1</li>
+                <li>Exercise 2</li>
+                <li>Exercise 3</li>
+                <li>Exercise 4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        Weekly Trivial Question: Who holds the record for eating the most hotdogs in 3 minutes?
+    </div>
+</body>
+</html>
